@@ -50,3 +50,13 @@
 #else:
 
    #print(f"el numero{num} es impar")
+
+#edad=-1
+
+#while (edad <0 or edad >100):
+    #edad=int(input("ingresa edad"))
+    #if (edad <0 or edad>100):
+        #print ("edad, edad fuera de rango{0,100}")
+#print("edad ingresa exitosamente")
+
+     
