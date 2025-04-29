@@ -59,4 +59,14 @@
         #print ("edad, edad fuera de rango{0,100}")
 #print("edad ingresa exitosamente")
 
-     
+
+#numero=int(input("ingrese un numero"))
+
+#if numero % 2 ==0:
+    #print(f"el numero{numero} es par")
+#else:
+    #print(f"el numero{numero} es impar")
+
+    #print("numeros pares:")
+#for i in range(1,numero+1,2):
+#    print(i)
