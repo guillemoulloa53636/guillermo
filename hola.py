@@ -70,3 +70,17 @@
     #print("numeros pares:")
 #for i in range(1,numero+1,2):
 #    print(i)
+
+productos={}
+total_precio=0
+cantidad_productos=0
+
+def agregar_producto():
+    global total_recio ,cantidad_productos
+nombre_producto=input("ingrese el nombre del producto:")
+precio_producto=float(input("ingrese el precio del producto:"))
+productos[nombre_producto]=precio_producto
+total_precio+=precio_producto
+cantidad_productos+=1
+print(f"producto agregado:{nombre_producto}-precio: ${precio_producto:.2f}")
+
