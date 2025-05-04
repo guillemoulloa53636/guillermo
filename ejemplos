@@ -1,0 +1,107 @@
+# aqui algunos ejemplos con if
+
+# ejemplo de uso de if y else en python
+
+# edad=int(input("por favor, ingrese su edad:"))
+
+# #verificamos si la persona es mayor de edad
+
+# if edad >=18:
+    
+#     print("eres mayor de edad.")
+# else:
+#     print("eres menor de edad.")
+
+# clasificador simple de temperatura
+
+# temperatura =float(input("ingrese la temperatura:"))
+
+# if temperatura >= 30:
+#     print("esta haciendo mucha calor.")
+# elif temperatura >= 20:
+#     print("esta un clima agradable.")
+# elif temperatura >=10:
+#     print("esta haciendo un poco de frio.")
+# else:
+#     print("hace frio.")
+
+# clasificador de calzados
+
+# talla=float(input("ingrese su talla de calzado "))
+
+# if talla >=45:
+#     print("usted es pie grande.")
+# elif talla >=42:
+#     print("usted tiene el pie grande.")
+# elif talla >=40:
+#     print("usted calza lo normal.")
+# else:
+#     print("usted tiene el pie chiquito")
+
+
+# vicio del cafe
+
+# tazas =float(input("ingrese la cantidad de tazas de cafe que bebe "))
+
+# if tazas >=6:
+#     print("usted es un cafeloco.")
+# elif tazas >=5:
+#     print("usted es nervioso.")
+# elif tazas >=4:
+#     print("usted es cafe lover.")
+# elif tazas >=3:
+#     print("usted es estudiante.")
+# elif tazas >=2:
+#     print("usted consume lo normal")
+# else:
+#     print("usted le obligaron tomar cafe")
+
+
+# ejemplos con el comando for
+
+# for i in range(1, 6):
+#     print(i)
+
+# listado de nombres 
+
+# nombres = ["guillermo , vicente , pablo , jean."]
+
+# for nombre in nombres:
+#     print("hola", nombre)
+
+# ahora una combinacion de ambos
+
+# lista de calificaciones
+
+# notas = [95,82,65,48,35,22, 10]
+
+# # recorremos cada calificacion con un for
+
+# for nota in notas:
+#   if nota >=85:
+#     print(f"{nota}:usted le sabe")
+#   elif nota >=45:
+#     print(f"{nota}:usted aprobo")
+#   else:
+#     print(f"{nota}:usted reprobo")
+
+
+#listado de nivel futbolistico
+
+# goles =[89,80,69,37,19 ,5]
+
+# for gol in goles:
+#     if gol >=85:
+#         print("{gol}:usted es cristiano ronaldo.")
+#     elif gol >=70:
+#         print("{gol}:usted es messi.")
+#     elif gol >=60:
+#         print("{gol}usted es emape.")
+#     elif gol >=40:
+#         print("{gol}usted es ronaldiño.")
+#     elif gol >=36:
+#         print("{gol}:usted es alexis sanchez.")
+#     elif gol >= 17:
+#         print("{gol}:usted es arturo vidal.") 
+#     else:
+#         print("{gol}:usted es noob player.")  
