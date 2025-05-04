@@ -137,3 +137,5 @@
 
 #print("\nlas ganancias diarias son $", total)
 #print("las ganancias diarias con iva (19%) son $", round(total*1.19, 2))
+
+
