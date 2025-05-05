@@ -86,22 +86,111 @@
 #     print(f"{nota}:usted reprobo")
 
 
-#listado de nivel futbolistico
-
-# goles =[89,80,69,37,19 ,5]
+#listado de nivel futbolistic
+# goles = [89,80,69,37,19 ,5]
 
 # for gol in goles:
-#     if gol >=85:
-#         print("{gol}:usted es cristiano ronaldo.")
-#     elif gol >=70:
-#         print("{gol}:usted es messi.")
-#     elif gol >=60:
-#         print("{gol}usted es emape.")
-#     elif gol >=40:
-#         print("{gol}usted es ronaldiño.")
-#     elif gol >=36:
-#         print("{gol}:usted es alexis sanchez.")
-#     elif gol >= 17:
-#         print("{gol}:usted es arturo vidal.") 
-#     else:
-#         print("{gol}:usted es noob player.")  
+#      if gol >=85:
+#          print("{gol}:usted es cristiano ronaldo.")
+#      elif gol >=70:
+#          print("{gol}:usted es messi.")
+#      elif gol >=60:
+#          print("{gol}usted es emape.")
+#      elif gol >=40:
+#          print("{gol}usted es ronaldiño.")
+#      elif gol >=36:
+#          print("{gol}:usted es alexis sanchez.")
+#      elif gol >= 17:
+
+#          print("{gol}:usted es arturo vidal.") 
+#      else:
+#          print("{gol}:usted es noob player.")  
+
+
+# cronologia de los presidentes
+
+# presidentes = [2022,2018,2014,2010,2006,2000,1994,1990 ]
+
+# for años in presidentes:
+
+#   if años >=2022:
+#      print("{presidentes}:gabriel boric merluzito. ")
+#   elif años >=2018:
+#     print("{presidentes}:sebastian piñera. ")
+#   elif años >=2014:
+#     print("{presidentes}:michelle bachelet. ")
+#   elif años >=2010:
+#     print("{presidentes}:sebastian piñera. ")
+#   elif años >=2006:
+#     print("{presidentes}:michelle bachelet. ")
+#   elif años >=2000:
+#     print("{presidentes}:ricardo lagos.")
+#   elif años >=1994:
+#     print("{presidentes}:eduardo frei")
+#   elif años >=1990:
+#     print("{presidentes}:augusto pinochet")
+
+#     int(input("los presidentes de chile"))
+
+
+# import random
+# import time
+
+# # # datos de nuestro peleadores
+
+# peleador1 = {
+
+#      "nombre": "charizar",
+#       "hp": 250,
+#       "ataque": 50,
+#  }
+
+# peleador2 = {
+
+#      "nombre": "blastois",
+#       "hp": 300,
+#       "ataque": 35,
+
+#  }
+
+# # # ataques
+
+# def atacar(atacante, defensor):
+#      critico = random.random() < 0.2 # proabilidad 20% de critico
+#      daño = atacante["ataque"]
+#      if critico:
+#          daño*= 2
+#          print(f"CRITICO!!!{atacante['nombre']}hace un ataque critico.")
+#          defensor["hp"] -=daño
+#          defensor["hp"] = max(defensor["hp"],0)
+#      print(f"{atacante['nombre']} ataca a {defensor['nombre']} y le quita {daño} de HP.")
+
+#      print(f"{defensor['nombre']} ahora tiene {defensor['hp']} HP.\n")
+
+
+# # # pelea por turnos
+
+# turno = 1
+
+# while peleador1["hp"] > 0 and peleador2["hp"] > 0:
+#      print(f"----turno {turno}----")
+#      if turno % 2 == 1:
+#        atacar(peleador1,peleador2)
+#      else:
+
+#        atacar(peleador2,peleador1)
+
+#      turno += 1
+#      time.sleep(1)
+
+#  # resultado final
+
+# if peleador1["hp"] <= 0:
+#      print(f" ¡¡¡WIN!!!{peleador2['nombre']} gana la pelea. ")
+#      print(f" ¡¡¡LOSE!!!{peleador1['nombre']} pierde la pelea. ")
+# else:
+#      print(f" ¡¡¡WIN!!! {peleador1['nombre']} gana la pelea. ")
+#      print(f" ¡¡¡LOSE!!! {peleador2['nombre']} pierde la pelea.")
+
+
+
