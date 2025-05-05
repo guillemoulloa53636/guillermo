@@ -194,3 +194,45 @@
 
 
 
+# codigo adivina un numero con 5 intentos
+
+# import random
+
+# # el numero se elige aleatoriamente entre 1 y 20
+
+# numero_secreto = random.randint(1, 20)
+# intentos_maximos= 5
+# intento_actual=0
+
+# print("bienvenido al juego de adivinar el numero!")
+# print("tienes 5 intentos para adivinar un numero del 1 al 20!.")
+
+# # bucle while continua mientras no se acaben los intentos
+
+# while intento_actual < intentos_maximos:
+#       intento_actual +=1
+#       numero_usuario = int(input(f"intento{intento_actual}:ingresa tu numero: "))
+
+# # estructura if para dar pistas
+
+#       if numero_usuario == numero_secreto:
+#        print("felicidades!!! adivinaste el numero correcto! ")
+#        break
+
+#       elif numero_usuario < numero_secreto:
+#         print("demasiado alto")
+# else:
+#       print("demasiado bajo")
+
+# # si se acaban los numeros sin adivinar 
+
+# if numero_usuario != numero_secreto:
+#       print(f"te quedaste sin intentos. el numero secreto era{numero_secreto}.")
+
+# # uso de for para mostrar los 5 numeros como despedida
+
+# print("\ngracias por jugar. aqui estan los numeros secretos del 1 al 5 como despedida:")
+# for i in range(1, 6):
+#       print(i)
+
+#       print("fin del juego. ")
