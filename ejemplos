@@ -236,3 +236,53 @@
 #       print(i)
 
 #       print("fin del juego. ")
+
+
+# chocolate=1
+
+# if chocolate==1:
+#     print("HAY CHOCOLATE")
+# else:
+#     print("NO HAY CHOCOLATE")
+
+# print("salio GTA6 1.-si 0.-no")
+# gta6=int(input())
+
+# if gta6==1:
+#      print("HAY GTA 6")
+# else:
+#      print("SE VOLVIO A RETRASAR")
+
+# credito=0
+# print("cuanto credito tienes?")
+# credito=int(input("ingrese su credito:"))
+
+# if credito >= 1500000:
+#     print("usted recibe un credito de 1000.000")
+# elif credito >= 1000000:
+#     print("usted recibe un credito de 650.000")
+# else:
+#     print("usted recibe un credito de 300.000")
+
+# nivel_educacional=0
+# print("en que nivel educativo vas?")
+# nivel_educacional=int(input("ingrese su nivel educativo:"))
+
+# import random
+
+
+
+# digito1=int(input("ingrese un digito:"))
+# digito2=int(input("ingrese otro digito:"))
+
+# numero_secreto=random.randint(digito1, digito2)
+
+# while digito1 >= digito2:
+#     print("el digito1 es el mayor")
+# else:
+#     print("el digito2 es el mayor")
+
+#     numero_secreto=random.randint(digito1, digito2)
+#     print("el numero secreto es:", numero_secreto)
+
+#     print("▄"*numero_secreto)
