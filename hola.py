@@ -138,4 +138,137 @@
 #print("\nlas ganancias diarias son $", total)
 #print("las ganancias diarias con iva (19%) son $", round(total*1.19, 2))
 
+# while True:
+#     try:
+#         num=int(input("ingrese un numero mayor que 3"))
+#         if num>3:
+#             break
+#     except Exception:
+#       print("solo debe ingresar numeros")
 
+
+
+# nombre=int(input("ingrese su nombre "))
+
+# print("bienvenido al sistema, que desea comprar")
+
+# cant=int(input("ingrese la cantidad de productos "))
+# total=0
+# for i in range(cant):
+#     print(" ''' cuales productos van a llevar " 
+#     "1 .- coca cola $2000" 
+#     "2 .- pan $3500" 
+#     "3.- queso $2500'''")
+
+# print(input("ingrese su nombre "))
+
+# def tipo(pro1,pro2,pro3,pro4):
+# =int(input("ingrese el tipo de producto"),pro1,pro2,pro3,pro4)
+#     pro1=int(input("ingrese el producto:  "))
+#     pro2=int(input("ingrese otro producto:  "))
+#     pro3=int(input("ingrese otro producto"))
+#     pro4=int(input("ingrese otro producto"))
+#     print("El resultado de la suma de los productos es", pro1+pro2+pro3+pro4)
+
+#  def tipo():
+#      while True:
+#          op=int(input('''Seleccione una opcion
+#                       1.- pan
+#                      2.- fideos
+#                      3.- tomates
+#                      4.- coca cola
+#                      5.- Salir
+#                      '''))
+ 
+
+# def compras(pro1,pro2,pro3):
+#     print("El resultado de la compra es", pro1+pro2+pro3)
+
+# def compra():
+#     pro1=int(input("ingrese el producto:  "))
+#     pro2=int(input("ingrese otro producto:  "))
+#     pro3=int(input("ingrese otro producto"))
+    # print("El resultado de la suma de los productos es", pro1+pro2+pro3)
+
+
+
+
+
+#  def nombre():
+#  nombre=int(input("Ingrese su nombre"))
+#  print("bienvenido", nombre)
+
+# def cantproductos():
+#     p1=int(input("Ingrese un producto"))
+#     p2=int(input("Ingrese otro producto"))
+#     p3=int(input("ingrese otro producto"))
+#     print("El resultado de la cant es", p1+p2+p3)
+# def carrito():
+#     n1=int(input("Ingrese un carrito"))
+# def producto():
+#      while True:
+#          op=int(input('''Seleccione una opcion
+#                       1.- pan
+#                      2.- fideos
+#                      3.- tomates
+#                      4.- coca cola
+#                      5.- Salir
+#                      '''))
+ 
+# def suma():
+#     p1=int(input("Ingrese un producto"))
+#     p2=int(input("Ingrese otro producto"))
+#     p3=int(input("Ingrese otro producto"))
+#     print("El resultado de la suma",p1+p2+p3)
+
+ 
+# def calcu():
+#     while True:
+#         op=int(input('''Seleccione una opcion
+#                     1.- ingrese su nombre
+#                     2.- carrito
+#                     3.- ingrese producto
+#                     4.- sumar precios
+#                     5.- Salir
+#                     '''))
+
+#         match op:
+#             case 1:
+#                 print("ingrese su nombre")
+#                 nombre()
+#             case 2:
+#                 print("carrito")
+#                 carrito()
+#             case 3:
+#                 print("ingrese producto")
+#                 producto()
+#             case 4:
+#                 print("sumar precios")
+#                 divi()
+#             case 5:
+#                 print("Salir")
+#                 break
+#             case _:
+#                 print("Opcion invalida")
+
+
+
+
+# cant=int(input("Ingrese el número de alumnos "))
+
+# if cant <=5:
+
+#  cantnotas=int(input("ingrese cantidad de notas del alumno 1 "))
+# suma=0
+# for j in range(cant):
+#      print(f"Ingrese la nota numero {j+cantnotas }")
+#      nota=float(input())
+#      cantnotas=suma+nota
+# suma=nota/cantnotas
+
+# print(f"El promedio es {j+nota} ")
+
+# if cant <=4:
+#     print("alumno 1 aprobo")
+# else:
+#      print("alumno 1 reprobo")
