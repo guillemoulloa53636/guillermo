@@ -1,8 +1,5 @@
-# declaracion de variables
-# nombre="link"
-# edad=58
-# ejemplo de concatenacion
-# print("hola",nombre, "y su edad es",edad)
+
+
 
 
 
@@ -139,3 +136,188 @@
 #print("las ganancias diarias con iva (19%) son $", round(total*1.19, 2))
 
 
+total = 0
+bolsa = 0
+
+while True:
+    print('''
+Seleccione una opción:
+1. Comprar
+2. Mostrar boleta
+3. Salir
+''')
+    try:
+        op = int(input("Opción: "))
+    except ValueError:
+        print("Por favor ingresa un número válido.")
+        continue
+
+    match op:
+        case 1:
+            while True:
+                print('''
+¿Qué deseas comprar?
+1. Pantalones
+2. Tops
+3. Accesorios
+4. Calzado
+5. Volver al menú principal
+''')
+                try:
+                    sub_op = int(input("Opción: "))
+                except ValueError:
+                    print("Por favor ingresa un número válido.")
+                    continue
+
+                match sub_op:
+                    case 1:  # Pantalones
+                        print('''
+Selecciona un pantalón:
+1. Pantalón slim fit - $20000
+2. Pantalón recto - $30000
+3. Pantalón skinny - $15000
+4. Shorts - $20000
+5. Volver
+''')
+                        opc = int(input("Opción: "))
+                        match opc:
+                            case 1:
+                                total += 20000
+                                bolsa += 1
+                            case 2:
+                                total += 30000
+                                bolsa += 1
+                            case 3:
+                                total += 15000
+                                bolsa += 1
+                            case 4:
+                                total += 20000
+                                bolsa += 1
+                            case 5:
+                                continue
+                            case _:
+                                print("Producto inválido.")
+
+                    case 2:  # Tops
+                        print('''
+Selecciona un top:
+1. Polera pique - $15000
+2. Polera lisa - $10000
+3. Polera deportiva - $20000
+4. Polera de CR7 - $1000000
+5. Volver
+''')
+                        opc = int(input("Opción: "))
+                        match opc:
+                            case 1:
+                                total += 15000
+                                bolsa += 1
+                            case 2:
+                                total += 10000
+                                bolsa += 1
+                            case 3:
+                                total += 20000
+                                bolsa += 1
+                            case 4:
+                                total += 1000000
+                                bolsa += 1
+                            case 5:
+                                continue
+                            case _:
+                                print("Producto inválido.")
+
+                    case 3:  # Accesorios
+                        print('''
+Selecciona un accesorio:
+1. Reloj - $25000
+2. Pulsera - $1000
+3. Pulsera de plata - $10000
+4. Cadena - $5000
+5. Volver
+''')
+                        opc = int(input("Opción: "))
+                        match opc:
+                            case 1:
+                                total += 25000
+                                bolsa += 1
+                            case 2:
+                                total += 1000
+                                bolsa += 1
+                            case 3:
+                                total += 10000
+                                bolsa += 1
+                            case 4:
+                                total += 5000
+                                bolsa += 1
+                            case 5:
+                                continue
+                            case _:
+                                print("Producto inválido.")
+
+                    case 4:  # Calzado
+                        print('''
+Selecciona un calzado:
+1. Zapatillas Puma - $45000
+2. Zapatos de vestir - $60000
+3. Chalas - $3000
+4. Botas - $80000
+5. Volver
+''')
+                        opc = int(input("Opción: "))
+                        match opc:
+                            case 1:
+                                total += 45000
+                                bolsa += 1
+                            case 2:
+                                total += 60000
+                                bolsa += 1
+                            case 3:
+                                total += 3000
+                                bolsa += 1
+                            case 4:
+                                total += 80000
+                                bolsa += 1
+                            case 5:
+                                continue
+                            case _:
+                                print("Producto inválido.")
+
+                    case 5:
+                        break
+                    case _:
+                        print("Opción inválida.")
+
+        case 2:
+            print(f'''
+-------- BOLETA --------
+Total de artículos: {bolsa}
+Total neto: ${total}
+Total con IVA (19%): ${total * 1.19:.2f}
+¡Gracias por su compra!
+------------------------
+''')
+
+        case 3:
+            print("Saliendo del programa. ¡Hasta luego!")
+            break
+
+        case _:
+            print("Opción inválida.")
+
+
+
+
+
+
+
+
+try:
+        op = int(input("Opción: "))
+    except ValueError:
+        print("Por favor ingresa un número válido.")
+        continue
+    
+    match op:
+        case 1:
+            while True:
+                print('''Seleccione categoría:
