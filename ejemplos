@@ -237,6 +237,7 @@
 
 #       print("fin del juego. ")
 
+<<<<<<< HEAD
 # import random
 
 # # Elegimos un número secreto aleatorio entre 10 y 99
@@ -640,3 +641,135 @@
 #         case _:
 #             print("Opción inválida")
 
+=======
+
+# chocolate=1
+
+# if chocolate==1:
+#     print("HAY CHOCOLATE")
+# else:
+#     print("NO HAY CHOCOLATE")
+
+# print("salio GTA6 1.-si 0.-no")
+# gta6=int(input())
+
+# if gta6==1:
+#      print("HAY GTA 6")
+# else:
+#      print("SE VOLVIO A RETRASAR")
+
+# credito=0
+# print("cuanto credito tienes?")
+# credito=int(input("ingrese su credito:"))
+
+# if credito >= 1500000:
+#     print("usted recibe un credito de 1000.000")
+# elif credito >= 1000000:
+#     print("usted recibe un credito de 650.000")
+# else:
+#     print("usted recibe un credito de 300.000")
+
+# nivel_educacional=0
+# print("en que nivel educativo vas?")
+# nivel_educacional=int(input("ingrese su nivel educativo:"))
+
+# import random
+
+
+
+# digito1=int(input("ingrese un digito:"))
+# digito2=int(input("ingrese otro digito:"))
+
+# numero_secreto=random.randint(digito1, digito2)
+
+# while digito1 >= digito2:
+#     print("el digito1 es el mayor")
+# else:
+#     print("el digito2 es el mayor")
+
+#     numero_secreto=random.randint(digito1, digito2)
+#     print("el numero secreto es:", numero_secreto)
+
+#     print("▄"*numero_secreto)
+
+import random
+
+
+def suma2(n1,n2,n3):
+    print("El resultado de la suma es", n1+n2*n3)
+
+def suma():
+    n1=int(input("ingrese un numero:  "))
+    n2=int(input("ingrese otro numero:  "))
+    print("El resultado de la suma es", n1+n2)
+def resta():
+    n1=int(input("ingrese un numero:  "))
+    n2=int(input("ingrese otro numero:  "))
+    print("El resultado de la resta es", n1-n2)
+def multi():
+    n1=int(input("ingrese un numero:  "))
+    n2=int(input("ingrese otro numero:  "))
+    print("El resultado de la multiplicacion es", n1*n2)
+def divi():
+    n1=int(input("ingrese un numero:  "))
+    n2=int(input("ingrese otro numero:  "))
+    print("El resultado de la division es", n1/n2)
+
+def calcu():
+    while True:
+        op=int(input('''Seleccione una opcion
+                    1.- Suma
+                    2.- Resta
+                    3.- Multiplicacion
+                    4.- Division
+                    5.- Salir
+                    '''))
+
+        match op:
+            case 1:
+                print("Suma")
+                suma()
+            case 2:
+                print("Resta")
+                resta()
+            case 3:
+                print("Multiplicacion")
+                multi()
+            case 4:
+                print("Division")
+                divi()
+            case 5:
+                print("Salir")
+                break
+            case _:
+                print("Opcion invalida")
+
+
+
+
+
+# cant=int(input("Ingrese la cantidad de productos"))
+# total=0
+# for i in range(cant):
+#      print('''
+#          Que producto llevará?
+#  		1.- Diazepam $9000
+#  		2.- Metametozona $18500
+#  		3.- Oblea China $1000
+#      ''')
+#      op=int(input())
+#      if op==1:
+#          print("Usted lleva Diazepam")
+#          total=total+9000
+#      elif op==2:
+#          print("Usted lleva Metametozona")
+#          total=total+18500
+#      elif op==3:
+#          print("Usted lleva Oblea China")
+#          total=total+1000
+#      else:
+#          print("Error, seleccione una opcion válida")
+
+# print("EL total neto es ", total)
+# print("EL total con IVA es ", total*1.19)
+>>>>>>> 121d184e932093d14034ffba28cf5aafc823bad9
