@@ -208,3 +208,26 @@
 
 #         case _:
 #             print("Opción inválida")
+
+
+
+total=0
+
+while True:
+    try:
+        op=int(input('''seleccione una opcion
+                     1.- audifonos 15000$
+                     2.- celular 250000$ 
+                     3.- cargador 10000$
+                     4.- playstation 500000$
+                     '''))
+        match op:
+            case 1:
+                total+=15000
+            case 2:
+                total+=250000
+            case 3:
+                total+=10000
+            case 4:
+                total+=500000
+            case 5:

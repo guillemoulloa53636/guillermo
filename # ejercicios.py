@@ -1,0 +1,307 @@
+ #ejercicios.py
+# q = 0
+# j = 0
+# l = 0
+
+# total = 0
+# carrito = 0
+# findesc = 0
+
+# while True:
+#     print("bienvenido al super")
+#     op = int(input('''
+#             seleccione una opcion
+#             1.- comprar
+#             2.- mostrar boleta
+#             ''' ))
+
+#     match op:
+#         case 1:
+#             while True:
+#                 op = int(input('''
+#                         seleccione una opcion 
+#                         1.- queso 2000$ 
+#                         2.- jamon 4000$
+#                         3.- lechuga 2500$
+#                         4.- comprar y salir '''))
+
+#                 match op:
+#                     case 1:
+#                         total += 2000
+#                         carrito += 1
+#                     case 2:
+#                         total += 4000
+#                         carrito += 1
+#                     case 3:
+#                         total += 2500
+#                         carrito += 1
+#                     case 4:
+#                         print("Desea salir")
+#                         break
+
+#         case 2:
+#             while True:
+#                 desc = input("¿Tiene descuento? (si/no): ")
+#                 if desc == "si":
+#                     cod = input("Ingrese el código del descuento: ")
+#                     if cod == "joto":
+#                         findesc = total * 10 / 100
+#                         break
+#                 if desc == "no":
+#                     break
+
+#             hola = total - findesc
+#             print(f'''
+#                  ------0------
+#                  El descuento es: {total * 10 / 100}
+#                  Total de productos: {carrito}
+#                  Total neto: {total}
+#                  Total + IVA: {total * 1.19}
+#                  Precio a pagar con descuento: {hola}
+#                  Gracias por su compra
+#                  ¿Desea seguir comprando?
+#                  Chauuuu''')
+
+#             op = int(input(''' ¿Desea seguir comprando?
+#                           1.- sí
+#                           2.- no
+#                           '''))
+
+#             if op == 2:
+#                 print("Gracias por su compra")
+#                 break
+
+# total=0
+# bolsa=0
+# desc=0
+
+# while True:
+#     print("bienvenido a la tienda")
+#     op=int(input('''
+#                 1.-comprar
+#                 2.-mostrar boleta
+#                 '''))
+#     match op:
+#         case 1:
+#             while True:
+#                 op = int(input('''
+#                         selecione una opcion
+#                         1.- polera 15000$
+#                         2.- pantalon 20000$
+#                         3.- poleron 25000$
+#                         4.- zapatillas 50000$
+#                         5.- comprar y salir
+#                             '''))
+#                 match op:
+#                     case 1:
+#                         total+= 15000
+#                         bolsa += 1
+#                     case 2:
+#                         total+= 20000
+#                         bolsa+= 1
+#                     case 3:
+#                         total+= 25000
+#                         bolsa+= 1
+#                     case 4:
+#                         total+= 50000
+#                         bolsa+= 1
+#                     case 5:
+#                         print("desea salir de la compra?")
+#                         break
+
+#         case 2:
+#             while True:
+#                 desc=input("¿tiene descuento? (si/no):")
+#                 if desc == "si":
+#                     cod = input("ingrese codigo del descuento ")
+#                     if cod == "yeah":
+#                         desc = total * 10 / 100
+#                         break
+#                 if desc == "no":
+#                     break
+#             hello = total - desc
+#             print(f'''
+#                     ------0------
+#                     el descuento es: {total * 10 / 100}
+#                     total de productos es: {bolsa}
+#                     total neto es: {total}
+#                     total + iva: {total * 1.19}
+#                     precio a pagar con descuento : {hello}
+#                     gracias por su compra
+#                     desea seguir comprando?
+#                     adiosssss''')
+#             op = int(input(''' desea seguir comprando?
+#                             1.- si
+#                             2.-no
+#                             '''))
+            
+#             if op == 2:
+#                 print("gracias por su compra")
+#                 break
+
+
+# total=0
+# bolsa=0
+# desc=0
+
+# while True:
+#     print("bienevenido a la tienda de moda que desea? ")
+#     op=int(input(''' seleccione una opcion
+#                  1.- comprar
+#                  2.- mostrar boleta
+#                  '''))
+#     match op:
+#         case 1:
+#             while True:
+#                 op=int(input('''
+#                              1.- jeans
+#                              2.- tops
+#                              3.- chaquetas
+#                              4.- calzado
+#                              5.- salir
+#                              '''))
+#                 match op:
+#                     case 1:
+#                         while True:
+#                             op=int(input('''
+#                                          1.- skinny jeans 15000$
+#                                          2.- slim fit jeans 20000$
+#                                          3.- regular fit jeans 25000$
+#                                          4.- baggy fit jeans 30000$
+#                                          5.- volver al menu principal
+#                                          '''))
+#                             match op:
+#                                 case 1:
+#                                     total+=15000
+#                                     bolsa+=1
+#                                 case 2:
+#                                     total+=20000
+#                                     bolsa+=1
+#                                 case 3:
+#                                     total+=25000
+#                                     bolsa+=1
+#                                 case 4:
+#                                     total+=30000
+#                                     bolsa+=1
+#                                 case 5:
+#                                     break
+#                                 case _:
+#                                     print("opcion invalida")
+#                 match op:
+#                     case 2:
+#                         while True:
+#                             op=int(input('''
+#                                          1.- polo 5000$
+#                                          2.- polera 2000$
+#                                          3.- guayabera 5000$
+#                                          4.- musculosa 3000$
+#                                          5.- volver al menu principal
+#                                          '''))
+#                             match op:
+#                                 case 1:
+#                                     total+=5000
+#                                     bolsa+=1
+#                                 case 2:
+#                                     total+=2000
+#                                     bolsa+=1
+#                                 case 3:
+#                                     total+=5000
+#                                     bolsa+=1
+#                                 case 4:
+#                                     total+=3000
+#                                     bolsa+=1
+#                                 case 5:
+#                                     break
+#                                 case _:
+#                                     print("opcion invalida")
+#                 match op:
+#                     case 3:
+#                         while True:
+#                             op=int(input('''
+#                                          1.- biker jacket 70000$
+#                                          2.- blazer 100000$
+#                                          3.- bomber jacket 15000$
+#                                          4.- sueter 5000$
+#                                          5.- volver al menu principal
+#                                          '''))
+#                             match op:
+#                                 case 1:
+#                                     total+=70000
+#                                     bolsa+=1
+#                                 case 2:
+#                                     total+=100000
+#                                     bolsa+=1
+#                                 case 3:
+#                                     total+=15000
+#                                     bolsa+=1
+#                                 case 4:
+#                                     total+=5000
+#                                     bolsa+=1
+#                                 case 5:
+#                                     break
+#                                 case _:
+#                                     print("opcion invalida")
+#                 match op:
+#                     case 4:
+#                         while True:
+#                             op=int(input('''
+#                                          1.- zapatillas gucci 70000$
+#                                          2.- zapatos de vestir 100000$
+#                                          3.- botas 15000$
+#                                          4.- chalas 3000$
+#                                          5.- volver al menu principal
+#                                          '''))
+#                             match op:
+#                                 case 1:
+#                                     total+=70000
+#                                     bolsa+=1
+#                                 case 2:
+#                                     total+=100000
+#                                     bolsa+=1
+#                                 case 3:
+#                                     total+=15000
+#                                     bolsa+=1
+#                                 case 4:
+#                                     total+=3000
+#                                     bolsa+=1
+#                                 case 5:
+#                                     break
+#                                 case _:
+#                                     print("opcion invalida")
+#                 match op:
+#                     case 5:
+#                         break
+#         case 2:
+#             while True:
+#                 desc=input("¿tienes descuento? (si/no):")
+#                 if desc == "si":
+#                     cod = input("ingrese codigo de descuento ")
+#                     if cod == "fashion":
+#                         desc = total * 10 / 100
+#                         break
+#                 if desc == "no":
+#                     break
+#             gui = total - desc
+#             print(f'''
+#                   ------0------
+#                   el codigo de descuento es {total * 10 / 100}
+#                   total de productos es: {bolsa}
+#                   total neto es: {total}
+#                   total + iva: {total * 1.19}
+#                   precio a pagar con descuento : {gui}
+#                   gracias por su comprar
+#                   desea seguir comprando?
+#                   adiosssssss
+#                   ''')
+#             op=int(input(''' desea seguir comprando?
+#                          1. -si
+#                          2.- no
+#                          '''))
+#             if op == 2:
+#                 print(" gracias por visitarnos!!!")
+#                 break
+                                    
+                                    
+            
+            
+            

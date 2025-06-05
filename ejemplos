@@ -641,7 +641,6 @@
 #         case _:
 #             print("Opción inválida")
 
-=======
 
 # chocolate=1
 
@@ -746,7 +745,7 @@ def calcu():
 
 
 
-
+# ("desea agregar el descuento? 1.- si, 2.- no")
 
 # cant=int(input("Ingrese la cantidad de productos"))
 # total=0
@@ -772,4 +771,3 @@ def calcu():
 
 # print("EL total neto es ", total)
 # print("EL total con IVA es ", total*1.19)
->>>>>>> 121d184e932093d14034ffba28cf5aafc823bad9
