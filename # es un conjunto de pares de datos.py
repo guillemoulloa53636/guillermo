@@ -57,8 +57,7 @@ frutas[fruta]=precio
 print(frutas)
 frutas["sandia"]=5000
 
-for key,value in frutas.items():
-    print(key,value)
+
 
 fruta=input("elimine una fruta ")
 frutas.pop(fruta)
